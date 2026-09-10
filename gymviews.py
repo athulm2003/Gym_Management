@@ -103,16 +103,16 @@ class GymMemberManager(dbconnect):
         except Exception as e:
             print(e)
 
-
-connection_instance=dbconnect()
-print(connection_instance.get_connected())
-
-member_instance=GymMemberManager()
-member_instance.get()
-#member_instance.post(name="Athul",place="kollam",mobile="6775365222",plan="1 month",fee=2000,joined_date=datetime.datetime.today())
-#member_instance.post(name="Deepu",place="pune",mobile="8394738648",plan="3 month",fee=4000,joined_date=datetime.datetime.today())
-#member_instance.post(name="Varun",place="kochi",mobile="0087876722",plan="1 year",fee=2000,joined_date=datetime.datetime.today())
-#member_instance.post(name="Akshay",place="kakkanadu",mobile="79867539783",plan="1 year",fee=11000,joined_date=datetime.datetime.today())
-#member_instance.retrieve(5)
-#member_instance.delete(5)
-member_instance.put(id=6,name="Akshay lal")
+#
+# connection_instance=dbconnect()
+# print(connection_instance.get_connected())
+#
+# member_instance=GymMemberManager()
+# member_instance.get()
+# #member_instance.post(name="Athul",place="kollam",mobile="6775365222",plan="1 month",fee=2000,joined_date=datetime.datetime.today())
+# #member_instance.post(name="Deepu",place="pune",mobile="8394738648",plan="3 month",fee=4000,joined_date=datetime.datetime.today())
+# #member_instance.post(name="Varun",place="kochi",mobile="0087876722",plan="1 year",fee=2000,joined_date=datetime.datetime.today())
+# #member_instance.post(name="Akshay",place="kakkanadu",mobile="79867539783",plan="1 year",fee=11000,joined_date=datetime.datetime.today())
+# #member_instance.retrieve(5)
+# #member_instance.delete(5)
+# member_instance.put(id=6,name="Akshay lal")
