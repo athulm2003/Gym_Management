@@ -20,5 +20,10 @@ with tab1:
 
 with tab2:
     st.title("View Member Details")
+    records=member_instance.get()
+    if records:
+        st.table(records)
+    else:
+        st.warning("No records found...!")
 
 

@@ -22,7 +22,7 @@ class GymMemberManager(dbconnect):
             query="select * from member"
             self.cursor.execute(query)
             records=self.cursor.fetchall()
-            print(records)
+            return records
         except Exception as e:
             print(e)
 
